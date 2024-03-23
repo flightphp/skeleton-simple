@@ -1,6 +1,6 @@
 {
-    "name": "flightphp/skeleton",
-    "description": "A Flight PHP framework skeleton app to get your new projects up and running ASAP",
+    "name": "flightphp/skeleton-simple",
+    "description": "A Simpler Flight PHP framework skeleton app to get your new projects up and running ASAP",
     "keywords": [
         "microframework",
         "rest",
