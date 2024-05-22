@@ -14,6 +14,8 @@ composer create-project flightphp/skeleton cool-project-name
 
 Replace `cool-project-name` with the desired directory name for your new application.
 
+**Note:** If you are installing with PHP 8.0 or above and want to use `tracy-extensions` be sure to run `composer require --dev flightphp/tracy-extensions "^0.2"` after the project is created.
+
 ### Simple Setup of the Application
 
 This is basically a single file application. The only exception to this is the config file which is still in the `app/config/` directory. This is a good starting point for smaller projects or projects that you don't anticipate will grow much.
