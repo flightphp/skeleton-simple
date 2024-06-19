@@ -1,6 +1,8 @@
 <?php
 
 use flight\database\PdoWrapper;
+use flight\debug\database\PdoQueryCapture;
+use Tracy\Debugger;
 
 /*
  * FlightPHP Framework Skeleton - Simple Implementation
