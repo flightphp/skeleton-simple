@@ -68,9 +68,14 @@ $config = require($config_file_path);
  * service, or if you should create a new instance of the service every time you need it.
  * That's a discussion for another day. Suffice to say, that Flight has a basic concept
  * of a services container by registering classes to the Engine/Flight class.
- */ 
-$dsn = 'mysql:host=' . $config['database']['host'] . ';dbname=' . $config['database']['dbname'] . ';charset=utf8mb4';
-Flight::register('db', PdoWrapper::class, [ $dsn, $config['database']['user'], $config['database']['password'] ]);
+ */
+
+// uncomment the following line for MySQL
+// $dsn = 'mysql:host=' . $config['database']['host'] . ';dbname=' . $config['database']['dbname'] . ';charset=utf8mb4';
+
+// uncomment the following line for SQLite
+// $dsn = sqlite:' . $config['database']['file_path'];
+Flight::register('db', PdoWrapper::class, [ $dsn, $config['database']['user'] ?? null, $config['database']['password'] ?? null ]);
 
 /*
  * A route is really just a URL, but saying route makes you sound cooler.
