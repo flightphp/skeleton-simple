@@ -20,8 +20,6 @@ Replace `cool-project-name` with the desired directory name for your new applica
 
 This is basically a single file application. The only exception to this is the config file which is still in the `app/config/` directory. This is a good starting point for smaller projects or projects that you don't anticipate will grow much.
 
-To use the simple version, you'll need to copy the `app/config/config_sample.php` file to `app/config/config.php`.
-
 With the simple setup, there is two very import security steps to be aware of. 
 - **DO NOT SAVE SENSITIVE CREDENTIALS TO THE `index.php` FILE**. 
 - **DO NOT COMMIT ANY TYPE OF SENSITIVE CREDENTIALS TO YOUR REPOSITORY**.
