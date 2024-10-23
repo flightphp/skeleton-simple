@@ -9,7 +9,7 @@ This skeleton application was built for Composer. You also could download a zip 
 Run this command from the directory in which you want to install your new Flight PHP application. (this will require PHP 7.4 or newer)
 
 ```bash
-composer create-project flightphp/skeleton cool-project-name
+composer create-project flightphp/skeleton-simple cool-project-name
 ```
 
 Replace `cool-project-name` with the desired directory name for your new application.
